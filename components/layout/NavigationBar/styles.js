@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 export const NavigationBar = styled.header`
-  ${tw`h-24 border-b-4 border-gray-900 bg-gray-900 bg-opacity-30`}
+  ${tw`hidden md:(block) h-24 border-b-4 border-gray-900 bg-gray-900 bg-opacity-30`}
   .content {
     ${tw`h-full w-full container mx-auto flex flex-row`}
 

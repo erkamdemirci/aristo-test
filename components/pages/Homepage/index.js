@@ -15,8 +15,8 @@ const Homepage = () => {
   return (
     <>
       <HomeHeaderSection />
-      <Manifest />
       <EducatorSuggestion />
+      <Manifest />
       <TrailerCardSlider />
       <ChannelBanner />
       <PaymentPlans />

@@ -11,13 +11,13 @@ export const StyledContainer = styled.div`
 `;
 
 export const Header = styled.div`
-  ${tw`flex flex-row justify-between mb-8 px-8 sm:(px-12) md:(px-24)`}
+  ${tw`flex flex-row justify-between mb-4 lg:(mb-12)`}
 
   .title {
     ${tw`text-3xl md:(text-4xl) lg:(text-5xl) font-bold`}
   }
   .show-all-button {
-    ${tw`text-base md:(text-xl) font-semibold text-white border-b-2 h-8 transition-all ease-in-out duration-300`}
+    ${tw`hidden lg:(block) text-base md:(text-xl) font-semibold text-white border-b-2 h-8 transition-all ease-in-out duration-300`}
     z-index: 20;
 
     &:hover {

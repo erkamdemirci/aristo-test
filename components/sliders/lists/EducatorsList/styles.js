@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
 
     .educatorsSwiper {
       filter: drop-shadow(0px 0px 25px rgba(96, 118, 190, 0.5));
-      ${tw`w-[350px] h-[400px] md:(h-[450px]) mx-auto px-8 overflow-hidden `}
+      ${tw`w-full max-w-[350px] h-[400px] md:(h-[450px]) mx-auto px-8 overflow-hidden `}
 
       .swiper-slide-shadow {
         ${tw`bg-transparent`}
@@ -48,7 +48,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const Header = styled.div`
-  ${tw`flex flex-col gap-4 mb-8 px-8 sm:(px-12) md:(px-24)`}
+  ${tw`flex flex-col gap-4 mb-4 lg:(mb-12)`}
 
   .subtitle {
     ${tw`text-[#DA00FF] font-bold text-lg md:(text-xl)`}

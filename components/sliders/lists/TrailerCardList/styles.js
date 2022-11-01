@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 export const StyledContainer = styled.div`
-  ${tw`mt-[-40px]`}
+  ${tw`lg:(mt-[-40px])`}
   .slick-custom {
     ${tw`w-full m-0`}
     .slick-list {
@@ -11,10 +11,10 @@ export const StyledContainer = styled.div`
 `;
 
 export const Header = styled.div`
-  ${tw`flex flex-row justify-between mb-12 px-8  `}
+  ${tw`flex flex-row justify-between mb-4 lg:(mb-12) px-8`}
 
   .section-title {
-    ${tw`flex flex-col gap-4 max-w-[60%]`}
+    ${tw`flex flex-col gap-4 lg:(max-w-[60%])`}
 
     .subtitle {
       font-family: 'Amatic';
@@ -26,7 +26,7 @@ export const Header = styled.div`
   }
 
   .show-all-button {
-    ${tw`text-base lg:(text-xl) font-semibold text-white border-b-2 h-10 transition-all ease-in-out duration-300 drop-shadow-2xl`}
+    ${tw`hidden lg:(block) text-base lg:(text-xl) font-semibold text-white border-b-2 h-10 transition-all ease-in-out duration-300 drop-shadow-2xl`}
     z-index: 20;
 
     &:hover {
