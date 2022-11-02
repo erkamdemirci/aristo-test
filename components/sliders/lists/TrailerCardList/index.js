@@ -103,7 +103,7 @@ const TrailerCardList = ({ items = junkData, maxElementCount = 4, ...props }) =>
       <S.Header>
         <div className="section-title">
           <div className="subtitle">{subtitle}</div>
-          <div className="title">{title}</div>
+          {title ? <div className="title">{title}</div> : null}
         </div>
         <button type="button" className="show-all-button">
           Tümünü Gör

@@ -1,7 +1,8 @@
 import tw, { styled } from 'twin.macro';
 
 export const StyledContainer = styled.div`
-  ${tw`container mx-auto flex flex-col items-center gap-12 my-12  px-8`}
+  ${tw`container mx-auto px-4 flex flex-col items-center gap-12 my-12`}
+
   .header {
     ${tw`text-center flex flex-col gap-4`}
     .section-title {

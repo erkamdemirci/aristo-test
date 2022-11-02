@@ -14,7 +14,9 @@ const AccordionList = ({ items = junkItems }) => {
 
   return (
     <S.StyledContainer>
-      <S.Header>Sıkça Sorulan Sorular</S.Header>
+      <S.Header>
+        <div className="title">Sıkça Sorulan Sorular</div>
+      </S.Header>
       {items &&
         items.map((item, idx) => (
           <div key={idx} className="accordion">

@@ -5,13 +5,13 @@ export const StyledContainer = styled.div`
   .slick-custom {
     ${tw`w-full m-0`}
     .slick-list {
-      ${tw`h-[280px] pt-12 xl:(pt-24) mt-[-40px] xl:(mt-[-80px] h-[360px]) `}
+      ${tw`h-[220px] mt-0 xl:(pt-24 mt-[-80px] h-[360px]) `}
     }
   }
 `;
 
 export const Header = styled.div`
-  ${tw`flex flex-row justify-between mb-4 lg:(mb-12) px-8`}
+  ${tw`flex flex-row text-center justify-between mb-4 md:(text-left) lg:(mb-12) px-8`}
 
   .section-title {
     ${tw`flex flex-col gap-4 lg:(max-w-[60%])`}
@@ -21,7 +21,7 @@ export const Header = styled.div`
       ${tw`text-blue-700 text-3xl md:(text-4xl) lg:(text-5xl) font-bold`};
     }
     .title {
-      ${tw`text-xl sm:(text-2xl) lg:(text-3xl) xl:(text-4xl) font-bold`}
+      ${tw`text-2xl lg:(text-3xl) xl:(text-4xl) font-bold`}
     }
   }
 

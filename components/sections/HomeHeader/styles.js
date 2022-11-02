@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 export const StyledContainer = styled.div`
-  ${tw`flex flex-col-reverse px-10 py-16 relative min-h-[500px] h-full max-h-[100%]`}
+  ${tw`flex flex-col-reverse px-4 lg:(px-10) py-16 relative min-h-[500px] h-full max-h-[100%]`}
 
   .content {
     ${tw`relative container mx-auto z-20 flex flex-col w-full gap-4 md:(gap-10) bg-transparent justify-center`}

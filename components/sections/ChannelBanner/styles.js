@@ -1,13 +1,13 @@
 import tw, { styled } from 'twin.macro';
 
 export const StyledContainer = styled.div`
-  ${tw`flex flex-col-reverse w-full relative py-4 relative min-h-[250px] h-full max-h-[100%] overflow-hidden`}
+  ${tw`flex flex-col-reverse w-full relative py-6 relative min-h-[250px] h-full max-h-[100%] overflow-hidden`}
 
   .content {
     ${tw`relative self-end flex flex-col gap-8 md:(flex-col py-12) w-full bg-transparent justify-center`}
 
     .left {
-      ${tw`z-50 flex flex-col gap-4 p-4 px-12 md:(gap-10 pl-20 pr-0) lg:(pl-40)`}
+      ${tw`z-50 flex flex-col gap-4 p-4 md:(gap-10 pl-20 pr-0) lg:(pl-40)`}
       .title {
         ${tw`font-bold text-blue-700 z-10 flex flex-col text-7xl lg:(text-8xl)`}
         font-family:'Amatic';
@@ -44,7 +44,7 @@ export const StyledContainer = styled.div`
     }
 
     .slider {
-      ${tw`px-8 md:(px-12) `}
+      ${tw`px-0 md:(px-12) `}
     }
   }
 `;

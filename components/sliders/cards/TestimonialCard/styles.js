@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
     ${tw`mx-0 bottom-0 rounded-b-3xl lg:(mx-12 bottom-2 rounded-3xl) p-8 xl:(mx-24 w-[70%] bottom-24 p-8 pt-12) absolute left-0 right-0 bg-gray-900 bg-opacity-[95%] flex flex-col gap-4 shadow-2xl border-4 border-gray-800`}
 
     .testimonial {
-      ${tw`tracking-normal sm:(text-lg) md:(text-lg tracking-wide) xl:(text-xl) font-normal `}
+      ${tw`tracking-normal leading-tight text-sm lg:(leading-normal) sm:(text-lg) md:(text-lg tracking-wide) xl:(text-xl) font-normal `}
       &::before {
         content: '“';
         ${tw`mr-2 text-xl`}
